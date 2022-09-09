@@ -1,0 +1,71 @@
+body {
+    font-family: 'Tangerine';
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+p {
+    background-color: blanchedalmond;
+    color: #121a5e;
+    padding: 10px;
+    visibility: hidden;
+}
+
+header {
+    position: absolute;
+
+}
+
+label {
+    color: blue;
+    font-family: 'Tangerine';
+    src: url(../Fonts/Tangerine-Regular.ttf);
+}
+
+h1 {
+    color: blue;
+    font-family: 'Tangerine';
+    src: url(../Fonts/Tangerine-Bold.ttf);
+}
+
+button {
+    font-family: 'Tangerine';
+    width: 200px;
+    height: 70px;
+    border-width: 4px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 300px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:active {
+    font-size: 14px;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 0%;
+}
