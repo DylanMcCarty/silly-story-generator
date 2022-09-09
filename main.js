@@ -55,8 +55,4 @@ function result() {
 
 }
 
-music.addEventListener(click, result)
 
-function result() {
-  
-}
