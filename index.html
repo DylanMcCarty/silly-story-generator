@@ -11,7 +11,13 @@
 
     body {
       font-family: helvetica, sans-serif;
-      width: 350px;
+      width: 700px;
+      text-align: center;
+      margin: auto;
+      background-image: url(../img/tavern.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
     }
 
     label {
@@ -29,15 +35,21 @@
 
     p {
       background: #FFC125;
-      color: #5E2612;
+      color: #121a5e;
       padding: 10px;
       visibility: hidden;
+    }
+
+    header {
+      position: absolute;
+      
     }
 
     </style>
   </head>
 
   <body>
+    <h1 id="header">D&D Campaign Generator</h1>
     <div>
       <label for="customname">Enter custom name:</label>
       <input id="customname" type="text" placeholder="">
