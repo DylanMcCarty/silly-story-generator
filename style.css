@@ -1,6 +1,5 @@
 body {
     font-family: 'Tangerine';
-    width: 700px;
     text-align: center;
 }
 label {
@@ -21,6 +20,8 @@ p {
     color: #121a5e;
     padding: 10px;
     visibility: hidden;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 
 header {
@@ -38,6 +39,9 @@ h1 {
     color: blue;
     font-family: 'Tangerine';
     src: url(../Fonts/Tangerine-Bold.ttf);
+    font-weight: 200;
+    font-size: 100px;
+    margin-top: 5px;
 }
 
 button {
@@ -47,7 +51,7 @@ button {
     border-width: 4px;
     border-radius: 50px;
     position: relative;
-    margin-top: 300px;
+    margin-top: 150px;
     font-size: large;
     font-weight: bold;
     cursor: pointer;
