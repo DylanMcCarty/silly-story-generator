@@ -30,14 +30,14 @@ header {
 }
 
 label {
-    color: blue;
-    font-family: 'Tangerine';
+    color: white;
+    font-family: 'MedievalSharp', cursive;
     src: url(../Fonts/Tangerine-Regular.ttf);
 }
 
 h1 {
-    color: blue;
-    font-family: 'Tangerine';
+    color: white;
+    font-family: 'MedievalSharp', cursive;
     src: url(../Fonts/Tangerine-Bold.ttf);
     font-weight: 200;
     font-size: 100px;
